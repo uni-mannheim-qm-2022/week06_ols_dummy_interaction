@@ -904,11 +904,11 @@ Answer:
 
 # Concluding Remarks {-}
 
-In this lab, you have learned to implement hypothesis testing in R and worked with categorical variables. As you have seen, the uncertainty around the coefficient estimates is expressed in standard errors, confidence intervals,   t-values, p-values (`Pr(>|t|)`). Yet essentially, all these numbers express *exactly the same*. And even more importantly, statistical significance is only one part of the story you will want to tell with your models; substantive significance is crucial, too. Plus, remember that the use of p-values is now heavily debated. This is how scientific discovery worked up until recently. Report your substantive significance too! (taken from @gigerenzer_statistical_2018 (p. 202))
+In this lab, you have learned to implement hypothesis testing in R and worked with categorical variables. As you have seen, the uncertainty around the coefficient estimates is expressed in standard errors, confidence intervals,   t-values, p-values (`Pr(>|t|)`). Yet essentially, all these numbers express *exactly the same*. And even more importantly, statistical significance is only one part of the story you will want to tell with your models; substantive significance is crucial, too. Plus, remember that the use of p-values is now heavily debated. This is how scientific discovery worked up until recently (taken from @gigerenzer_statistical_2018 (p. 202)).
 
-![](images/null_ritual.png){height="150px"}
+![](images/null_ritual.png){height="200px"}
 
-But if all else fails, use "significant at a p>0.05 level" and hope no one notices!
+Report your substantive significance too! But if all else fails, use "significant at a p>0.05 level" and hope no one notices!
 
 ![](https://imgs.xkcd.com/comics/p_values_2x.png){height="350px"}
 
